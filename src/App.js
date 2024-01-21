@@ -1,10 +1,11 @@
 
 import './App.css';
+import { Navbar } from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div>
-      <h1 className='text-2xl bg-slate-500 text-white text-center'>Ecommerce website</h1>
+      <Navbar/>
 
     </div>
   );
