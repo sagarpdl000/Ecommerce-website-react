@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../Assets/logo.png'
 import cart from '../Assets/add-to-cart-3046.png'
+import { Link } from 'react-router-dom'
 
 
 export const Navbar = () => {
@@ -14,17 +15,23 @@ export const Navbar = () => {
 
         <div className='text-center'>
             <ul className='flex gap-3'>
-                <li><a href="#home" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Shop</a></li>
-                <li><a href="#home"className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Men</a></li>
-                <li><a href="#home"className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Women</a></li>
-                <li><a href="#home"className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Kids</a></li>
+
+
+                <li ><Link to= "/" className='hover:border-b-2 hover:border-orange-400 hover:mb-4' >Shop</Link></li>
+                <li><Link to= "/Mens" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Mens</Link></li>
+                <li><Link to= "/Womens" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Womens</Link></li>
+                <li><Link to= "/Kids" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Kids</Link></li>
+
+
+
+                
             </ul>
         </div>
 
 
         <div className='flex gap-4'>
-            <button className='text-center px-7  border-2 rounded-full hover:bg-orange-400 hover:text-white'>Login</button>
-            <img src={cart} alt="" className='h-8 w-8 text-center hover:scale-125' />
+           <Link to='/Login'><button className='text-center px-7  border-2 rounded-full hover:bg-orange-400 hover:text-white'>Login</button></Link>
+            <Link to= '/Cart'><img src={cart} alt="" className='h-8 w-8 text-center hover:scale-125' /></Link>
 
         </div>
 
