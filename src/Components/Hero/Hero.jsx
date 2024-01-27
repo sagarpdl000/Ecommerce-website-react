@@ -4,9 +4,9 @@ import cart from '../Assets/add-to-cart-3046.png'
 
 const Hero = () => {
   return (
-    <div className='h-screen bg-gradient-to-b from-slate-200 to-stone-200 grid grid-cols-2'>
+    <div className=' bg-gradient-to-b from-slate-200 to-stone-200 grid grid-cols-2 pb-14'>
 
-        <div className='ml-16 mt-44 '>
+        <div className='ml-16 mt-40 '>
             <h1 className='uppercase text-2xl'>Don't have time to go shopping?</h1>
             {/* <h2 className='uppercase text-m mt-2'>Don't worry, Shop with us.</h2> */}
             <h1 className='text-6xl font-bold my-3'>New</h1>
@@ -27,5 +27,7 @@ const Hero = () => {
     </div>
   )
 }
+
+
 
 export default Hero
