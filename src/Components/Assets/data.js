@@ -9,32 +9,32 @@ let data_product = [
         id : 1,
         name : "Tommy hilfiger winter jacket",
         image : popular_1,
-        new_Price : 230.00,
-        old_Price : 300.00,
+        new_Price : 6000.00,
+        old_Price : 6350.00,
     },
 
     {
         id : 2,
         name : "Tommy hilfiger crop jacket",
         image : popular_2,
-        new_Price : 200.00,
-        old_Price : 280.00,
+        new_Price : 5500.00,
+        old_Price : 6000.00,
     },
 
     {
         id : 3,
         name : "Gucci backpack",
         image : popular_3,
-        new_Price : 2400.00,
-        old_Price : 2800.00,
+        new_Price : 11000.00,
+        old_Price : 13500.00,
     },
 
     {
         id : 4,
         name : "Tommy hilfiger winter jacket",
         image : popular_4,
-        new_Price : 250.00,
-        old_Price : 270.00,
+        new_Price : 6250.00,
+        old_Price : 6800.00,
     }
 ]
 
