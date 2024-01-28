@@ -2,7 +2,7 @@ import React from 'react'
 
 const Item = (props) => {
   return (
-    <div className=''>
+    <div className='shadow-2xl hover:scale-105 duration-300'>
         
         <div>
         <img src={props.image} alt="" className='h-64 w-64 object-cover' />

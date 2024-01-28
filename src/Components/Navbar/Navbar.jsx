@@ -31,7 +31,7 @@ export const Navbar = () => {
 
         <div className='flex gap-4'>
            <Link to='/Login'><button className='text-center px-7  border-2 rounded-full hover:bg-orange-400 hover:text-white'>Login</button></Link>
-            <Link to= '/Cart'><img src={cart} alt="" className='h-8 w-8 text-center hover:scale-125' /></Link>
+            <Link to= '/Cart'><img src={cart} alt="" className='h-8 w-8 text-center hover:scale-125 duration-300' /></Link>
 
         </div>
 
