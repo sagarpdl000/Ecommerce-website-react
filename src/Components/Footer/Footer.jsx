@@ -9,7 +9,7 @@ import { faInstagram, faWhatsapp, faFacebook } from '@fortawesome/free-brands-sv
 
 const Footer = () => {
   return (
-    <div className=' flex justify-center bg-gradient-to-b from-slate-200 to-stone-200 py-10'>
+    <div className=' flex justify-center bg-gradient-to-b from-slate-200 to-stone-200 py-8'>
         <div className=''>
         <div className='flex items-end justify-center mb-4'>
         <img src={logo} alt="" className='h-16 w-16'/>
@@ -26,10 +26,14 @@ const Footer = () => {
         <div className='justify-center flex mt-4 gap-4'>
         
  
-        <FontAwesomeIcon icon={faInstagram} className='h-6 w-6' />
-        <FontAwesomeIcon icon={faFacebook} className='h-6 w-6' />
-        <FontAwesomeIcon icon={faWhatsapp} className='h-6 w-6' />
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className='h-6 w-6' /></a>
+               <a href="https://www.facebook.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} className='h-6 w-6' /></a>
+              <a href="https://www.whatsapp.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} className='h-6 w-6' /></a>
+
         </div>
+        
+
+
         </div>
         
     </div>

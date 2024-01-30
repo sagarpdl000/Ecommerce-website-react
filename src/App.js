@@ -8,6 +8,7 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
+import Offer from './Components/Assets/offerbanner2.jpg';
 
 
 
@@ -20,9 +21,9 @@ function App() {
 
       <Routes>
         <Route path='/' element= {<Shop/>} />
-        <Route path='/Mens' element = {<ShopCategory category = "men"/>} />
-        <Route path='/Womens' element = {<ShopCategory category = "women"/>} />
-        <Route path='/kids' element = {<ShopCategory category = "kid"/>} />
+        <Route path='/Mens' element = {<ShopCategory banner={Offer} category = "men"/>} />
+        <Route path='/womens' element = {<ShopCategory banner={Offer}  category = "women"/>} />
+        <Route path='/kids' element = {<ShopCategory banner={Offer} category = "kid"/>} />
 
         <Route path='/product' element={<Product/>}>
           <Route path=':productId' element={<Product/>}/>

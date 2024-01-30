@@ -18,9 +18,9 @@ export const Navbar = () => {
 
 
                 <li ><Link to= "/" className='hover:border-b-2 hover:border-orange-400 hover:mb-4' >Shop</Link></li>
-                <li><Link to= "/Mens" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Mens</Link></li>
-                <li><Link to= "/Womens" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Womens</Link></li>
-                <li><Link to= "/Kids" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Kids</Link></li>
+                <li><Link to= "/Mens" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Men</Link></li>
+                <li><Link to= "/Womens" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Women</Link></li>
+                <li><Link to= "/Kids" className='hover:border-b-2 hover:border-orange-400 hover:mb-4'>Kid</Link></li>
 
 
 
