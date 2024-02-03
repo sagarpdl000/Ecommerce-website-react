@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Breadcrum = (props) => {
     const {product} = props;
   return (
-    <div className='my-3 mx-12 text-sm font-poppins'>
+    <div className='my-3 mx-16 text-sm font-poppins'>
         Home <FontAwesomeIcon icon={faArrowRight}/> Shop <FontAwesomeIcon icon={faArrowRight} /> {product.category} <FontAwesomeIcon icon={faArrowRight} /> {product.name}
     </div>
   )
