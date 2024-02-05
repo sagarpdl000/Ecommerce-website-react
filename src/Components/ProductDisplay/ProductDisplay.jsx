@@ -12,15 +12,15 @@ const ProductDisplay = (props) => {
     <div className='mx-16 font-poppins grid grid-cols-2 my-10 '>
         <div className='flex  ' id='left '>
             <div className=''>
-                <img src={product.image} alt="" className='h-40 w-40 object-cover'/>
-                <img src={product.image} alt=""className='h-40 w-40 object-cover pt-2' />
-                <img src={product.image} alt=""className='h-40 w-40 object-cover pt-2' />
+                <img src={product.image} alt="" className='h-32 w-32 object-cover'/>
+                <img src={product.image} alt=""className='h-32 w-32 object-cover pt-2' />
+                <img src={product.image} alt=""className='h-32 w-32 object-cover pt-2' />
                 
             </div>
 
     
             <div className='pl-2 '>
-                <img src={product.image} alt="" className=' ' />
+                <img src={product.image} alt="" className=' h-96' />
 
             </div>
         </div>
